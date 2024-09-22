@@ -1334,7 +1334,7 @@ def _linear_f16_act_fpx_weight_check(input_tensor, weight_tensor, bias):
 
 def _linear_f16_act_fpx_weight_impl(input_tensor, weight_tensor, bias):
     from torchao.dtypes.fpx import _SPLIT_K_MAP
-    from torchao.ops import quant_llm_linear
+    #from torchao.ops import quant_llm_linear
 
     act = input_tensor
     weight = weight_tensor
